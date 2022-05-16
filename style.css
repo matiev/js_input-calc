@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.calc {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #C4D2E2;
+    padding: 20px;
+    gap: 15px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.calc__material {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #97b6ff;
+}
+.calc__material-block {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 5px;
+}
+.calc__count, .calc__person, .calc__price {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    border-bottom: 1px solid #97b6ff;
+    padding-bottom: 15px;
+}
+.calc__price {    
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.calc__price-size {
+    font-size: 20px;
+}
