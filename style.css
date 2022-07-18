@@ -1,9 +1,5 @@
 
 
-body {
-    min-height: 100%;
-}
-
 .calculator {
     display: flex;
     align-items: center;
