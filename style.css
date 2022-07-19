@@ -37,3 +37,10 @@
     border-bottom: 1px solid #97b6ff;
     padding-bottom: 15px;
 }
+.calc__price {    
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.calc__price-size {
+    font-size: 20px;
+}
