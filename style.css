@@ -8,6 +8,10 @@ body {
     min-height: 100%;
 }
 
+/* .container {
+
+} */
+
 .calculator {
     display: flex;
     align-items: center;
