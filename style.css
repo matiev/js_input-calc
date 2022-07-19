@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100%;
+}
+
 .calculator {
     display: flex;
     align-items: center;
