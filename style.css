@@ -5,7 +5,8 @@
 }
 
 body {
-    
+    min-height: 100%;
+}
 
 
 /* .container {
